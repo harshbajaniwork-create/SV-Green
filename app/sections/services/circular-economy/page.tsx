@@ -34,7 +34,7 @@ const CircularEconomyPage = () => {
         src="/circular-economy.png"
         alt="Industrial Waste"
         title="Benefits of our Circular Waste Management Services"
-        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Ahmedabad that will solve all your waste management hurdles so you can be relieved. Our Cicrular Economy waste management services include:"
+        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Vapi that will solve all your waste management hurdles so you can be relieved. Our Cicrular Economy waste management services include:"
       />
       <ExpertiseSection
         title="Why Choose SV Green For Circular Economy Waste Management?"

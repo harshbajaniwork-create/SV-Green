@@ -17,7 +17,7 @@ const WoodenScrapBuyerPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1608702529091-f3b4fab4b97e?w=1920&q=80"
+        mediaSrc="/service-banner/wood-scrap.webp"
         mediaType="image"
         title="Wooden Scrap Buyer"
         subtitle="Building a Sustainable Future Together"
@@ -25,7 +25,7 @@ const WoodenScrapBuyerPage = () => {
       <ContentWithImage
         item={woodenScrapBuyer}
         reverse={false}
-        title="Wooden Scrap Buyer in Ahmedabad, Gujarat"
+        title="Wooden Scrap Buyer in Vapi, Gujarat"
         src="https://images.unsplash.com/vector-1750124156515-e2ff0742fcc2?w=800&q=80"
         alt="Industrial waste barrels and hazardous materials"
       />

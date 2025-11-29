@@ -17,7 +17,7 @@ const RubberScrapWasteManagementPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1591684391843-a16d792a9720?w=1920&q=80"
+        mediaSrc="/service-banner/rubber-scrap.webp"
         mediaType="image"
         title="Rubber Scrap Waste Manegement"
         subtitle="Building a Sustainable Future Together"

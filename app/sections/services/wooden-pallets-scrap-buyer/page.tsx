@@ -17,7 +17,7 @@ const WoodenPalletsScrapBuyerPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1682643143637-e583c5fc20a9?w=1920&q=80"
+        mediaSrc="/service-banner/wood-scrap.webp"
         mediaType="image"
         title="Wooden Pallets Scrap Buyer"
         subtitle="Building a Sustainable Future Together"
@@ -48,7 +48,7 @@ const WoodenPalletsScrapBuyerPage = () => {
       />
       <RecycleHub
         title="Why Choose SV Green For Wooden Pallets Scrap Management?"
-        description="SV Green is a leading wooden pallets scrap buyer in Ahmedabad, Gujarat. We are committed to providing the best services to our clients. We are the best wooden pallets scrap buyer in Gujarat."
+        description="SV Green is a leading wooden pallets scrap buyer in Vapi, Gujarat. We are committed to providing the best services to our clients. We are the best wooden pallets scrap buyer in Gujarat."
         item={whyRecycle}
         src="/wood-scrap.png"
         alt="Wooden Pallets Scrap Buyer"

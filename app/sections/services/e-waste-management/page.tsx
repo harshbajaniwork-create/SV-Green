@@ -27,7 +27,7 @@ const EWasteManagementPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1759500657339-6e11b99a8882?w=1920&q=80"
+        mediaSrc="/service-banner/e-waste-scrap.webp"
         mediaType="image"
         title="E-Waste Manegement"
         subtitle="Building a Sustainable Future Together"

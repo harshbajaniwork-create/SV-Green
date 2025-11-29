@@ -3,25 +3,6 @@ import { GoLaw } from "react-icons/go";
 import { RiServiceLine } from "react-icons/ri";
 import { GiTeamIdea } from "react-icons/gi";
 import { FaRecycle } from "react-icons/fa";
-import {
-  Droplets,
-  Hammer,
-  FlaskConical,
-  FileText,
-  Wine,
-  PaintBucket,
-  Shirt,
-  Package,
-  Factory,
-  Pill,
-  Paintbrush,
-  Zap,
-  Car,
-  PackageOpen,
-  Building2,
-  Wheat,
-  Laptop,
-} from "lucide-react";
 
 export type NavItem = {
   name: string;
@@ -80,8 +61,8 @@ export const NavItems: NavItem[] = [
 
 // * Content with image
 export const hazardContent = [
-  "Hazardous waste poses risks to human health and the environment. We are a trusted hazardous waste recycler in Ahmedabad, Gujarat, providing effective treatment processes tailored to industrial waste handling needs.",
-  "SV Green is a GPCB-approved hazardous waste recycler in Ahmedabad, known for dependable services and a highly trained team.",
+  "Hazardous waste poses risks to human health and the environment. We are a trusted hazardous waste recycler in Vapi, Gujarat, providing effective treatment processes tailored to industrial waste handling needs.",
+  "SV Green is a GPCB-approved hazardous waste recycler in Vapi, known for dependable services and a highly trained team.",
   "We take the time to understand the needs of businesses, large industries, and government agencies, and we take responsibility for hazardous waste from collection through recycling.",
   "As a hazardous waste management company in Gujarat, we provide a full range of environmental services, including waste collection, recycling compliance, EHS inspections, and internal waste-management solutions.",
   "With our strict regulatory compliance for hazardous waste, you can be confident in the protection of people, infrastructure, and the environment.",
@@ -89,7 +70,7 @@ export const hazardContent = [
 
 export const plasticWasteContent = [
   "According to the Central Pollution Control Board, in 2019–20 approximately 34,69,780 TPA of plastic waste was generated across India’s 35 states and union territories. These figures highlight the urgent need for effective plastic waste management. We operate as a GPCB-authorized plastic waste recycler in Gujarat.",
-  "At SV Green, environmental protection guides everything we do; it’s the reason we deliver high-quality plastic waste management services in Ahmedabad.",
+  "At SV Green, environmental protection guides everything we do; it’s the reason we deliver high-quality plastic waste management services in Vapi.",
   "We design customized plans because every industry has unique needs. As a GPCB-approved recycler, we follow regulatory guidelines to ensure full compliance, fair pricing, and exceptional service.",
   "Our plastic collection teams—trained and drawn from marginalized communities—follow strict safety protocols to provide reliable service. Our recycling facilities comply with PCB standards, so you can trust our quality and accuracy.",
 ];
@@ -101,7 +82,7 @@ export const industrialWasteContent = [
 ];
 
 export const extendedProducerResponsibility = [
-  "Extended Producer Responsibility (EPR) assigns producers significant financial and/or operational responsibility for handling or disposing of post-consumer plastic waste. SV Green is a leading SBM and a GPCB-approved EPR agency in Ahmedabad, offering convenient recycling programs for large-scale waste generators and developing tailored, plastic-focused strategies to transfer responsibility back to producers.",
+  "Extended Producer Responsibility (EPR) assigns producers significant financial and/or operational responsibility for handling or disposing of post-consumer plastic waste. SV Green is a leading SBM and a GPCB-approved EPR agency in Vapi, offering convenient recycling programs for large-scale waste generators and developing tailored, plastic-focused strategies to transfer responsibility back to producers.",
 ];
 
 export const circularEconomy = [
@@ -115,9 +96,9 @@ export const organicWaste = [
 ];
 
 export const eWaste = [
-  "Safe disposal of electronic waste (e-waste) is essential, and we act as a GPCB-registered e-waste recycler in Ahmedabad.",
+  "Safe disposal of electronic waste (e-waste) is essential, and we act as a GPCB-registered e-waste recycler in Vapi.",
   "E-waste consists of electronic products that have reached the end of their useful life. When sent to landfills, they can release toxic substances that threaten human health and the environment.",
-  "Proper e-waste recycling recovers valuable materials and minimizes landfill waste. SV Green is a trusted e-waste recycler in Ahmedabad, offering safe disposal and responsible recycling for environmental and social benefit.",
+  "Proper e-waste recycling recovers valuable materials and minimizes landfill waste. SV Green is a trusted e-waste recycler in Vapi, offering safe disposal and responsible recycling for environmental and social benefit.",
 ];
 
 export const rubberWaste = [
@@ -126,12 +107,12 @@ export const rubberWaste = [
 ];
 
 export const woodenScrapBuyer = [
-  "SV Green is a leading wooden-scrap buyer in Ahmedabad, providing professional recycling services that support sustainability and environmental conservation.",
+  "SV Green is a leading wooden-scrap buyer in Vapi, providing professional recycling services that support sustainability and environmental conservation.",
   "With years of experience and a commitment to eco-friendly practices, SV Green is a trusted partner for individuals and businesses seeking responsible wooden-scrap disposal.",
 ];
 
 export const woodenPalletsScrapBuyer = [
-  "SV Green is the premier wooden-pallets scrap buyer in Ahmedabad, known for sustainable operations and high-quality service. We play a key role in responsibly disposing and recycling wooden pallets to conserve resources and reduce waste.",
+  "SV Green is the premier wooden-pallets scrap buyer in Vapi, known for sustainable operations and high-quality service. We play a key role in responsibly disposing and recycling wooden pallets to conserve resources and reduce waste.",
   "Wooden pallets are vital for storage and transport but can become significant waste at end of life. SV Green ensures pallets are repurposed or recycled in an environmentally responsible way.",
 ];
 
@@ -897,8 +878,7 @@ export const industries = [
     ],
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/pharmaceutical-scrap.webp",
   },
   {
     title: "Textile & Garment",
@@ -912,8 +892,7 @@ export const industries = [
     ],
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534639077088-d702bcf685e7?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/textile-scrap.webp",
   },
   {
     title: "Paint & Coating",
@@ -927,8 +906,7 @@ export const industries = [
     ],
     color: "#344e41",
     lightColor: "#3a5a40",
-    imageUrl:
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/paint-scrap.webp",
   },
   {
     title: "Electronics & Electrical",
@@ -942,8 +920,7 @@ export const industries = [
     ],
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/electronics-scrap.webp",
   },
   {
     title: "Automotive & Manufacturing",
@@ -957,8 +934,7 @@ export const industries = [
     ],
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/automotive-scrap.webp",
   },
   {
     title: "FMCG & Packaging",
@@ -972,8 +948,7 @@ export const industries = [
     ],
     color: "#344e41",
     lightColor: "#3a5a40",
-    imageUrl:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/fmcg-scrap.webp",
   },
   {
     title: "Food & Beverage",
@@ -987,8 +962,7 @@ export const industries = [
     ],
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1611601184963-9d1de9b79ff3?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/food-scrap.webp",
   },
   {
     title: "Chemical & Petrochemical",
@@ -1002,8 +976,7 @@ export const industries = [
     ],
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/chemical-scrap.webp",
   },
   {
     title: "Steel & Metal Processing",
@@ -1017,8 +990,7 @@ export const industries = [
     ],
     color: "#344e41",
     lightColor: "#3a5a40",
-    imageUrl:
-      "https://images.unsplash.com/photo-1652676460021-8e6727e71d47?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/metal-scrap.webp",
   },
   {
     title: "Construction & Infrastructure",
@@ -1032,8 +1004,7 @@ export const industries = [
     ],
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/construction-scrap.webp",
   },
   {
     title: "Agriculture & Agro-Processing",
