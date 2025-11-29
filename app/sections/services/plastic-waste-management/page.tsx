@@ -17,7 +17,7 @@ const PlasticWasteManagementPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1664783366257-ed2a579eea86?w=1920&q=80"
+        mediaSrc="/service-banner/plastic-scrap.webp"
         mediaType="image"
         title="Plastic Waste Management"
         subtitle="Building a Plastic Free Future"
@@ -25,14 +25,14 @@ const PlasticWasteManagementPage = () => {
       <ContentWithImage
         item={plasticWasteContent}
         reverse={false}
-        title="Cautious And Reliable Hazardous waste management company in Ahmedabad"
+        title="Cautious And Reliable Hazardous waste management company in Vapi"
         src="https://images.unsplash.com/vector-1738825029134-2b4ea561c794?w=800&q=80"
         alt="Industrial waste barrels and hazardous materials"
       />
       <ServicesGrid
         item={plasticServices}
         title="Plastic Waste Management Services"
-        description="SV Green embraces technology to provide digital reports and certifications that instil transparency. Lastly, as a modern plastic waste recycler in Ahmedabad , we extend end-to-end solutions to overcoming the challenges experienced with conventional waste collection and recycling."
+        description="SV Green embraces technology to provide digital reports and certifications that instil transparency. Lastly, as a modern plastic waste recycler in Vapi , we extend end-to-end solutions to overcoming the challenges experienced with conventional waste collection and recycling."
         src="/plastic-waste.png"
         alt="Plastic Waste Management"
       />

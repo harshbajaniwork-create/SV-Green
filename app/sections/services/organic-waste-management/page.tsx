@@ -15,7 +15,7 @@ const OrganicWasteManagementPage = () => {
   return (
     <div className="bg-white">
       <ParallaxHero
-        mediaSrc="https://images.unsplash.com/photo-1545333212-ffebc7933c12?w=1920&q=80"
+        mediaSrc="/service-banner/organic-scrap.webp"
         mediaType="image"
         title="Organic Waste Manegement"
         subtitle="Building a Sustainable Future Together"
@@ -23,7 +23,7 @@ const OrganicWasteManagementPage = () => {
       <ContentWithImage
         item={organicWaste}
         reverse={false}
-        title="Organic Waste Recycler In Ahmedabad"
+        title="Organic Waste Recycler In Vapi"
         src="https://images.unsplash.com/vector-1738396054590-1cce0036f690?w=800&q=80"
         alt="Industrial waste barrels and hazardous materials"
       />
@@ -32,7 +32,7 @@ const OrganicWasteManagementPage = () => {
         src="/organic-waste.png"
         alt="organic Waste"
         title="Benefits of our Organic Waste Management Services"
-        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Ahmedabad that will solve all your waste management hurdles so you can be relieved. Our organic waste management services include:"
+        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Vapi that will solve all your waste management hurdles so you can be relieved. Our organic waste management services include:"
       />
       <BenefitsStepper
         title="Organic Waste Management Process"

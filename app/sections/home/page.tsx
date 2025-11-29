@@ -742,13 +742,14 @@ function StickyMobileCTA() {
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
-      <ParallaxHero
-        mediaSrc="/hero.mp4"
-        mediaType="video"
-        title="Transforming Industrial Waste into Environmental Responsibility"
-        subtitle="27+ years of trusted industrial scrap management across Gujarat, Maharashtra & Rajasthan."
-      />
-
+      <div className="mt-24">
+        <ParallaxHero
+          mediaSrc="/hero.mp4"
+          mediaType="video"
+          title="Transforming Industrial Waste into Environmental Responsibility"
+          subtitle="27+ years of trusted industrial scrap management across Gujarat, Maharashtra & Rajasthan."
+        />
+      </div>
       <TrustStrip />
       <ServicesOverview />
       <AdvantageSection />

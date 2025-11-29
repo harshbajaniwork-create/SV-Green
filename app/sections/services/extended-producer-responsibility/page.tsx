@@ -127,7 +127,7 @@ const ExtendedProducerResponsibilityPage = ({ reverse = false }) => {
         src="/electronic-waste.png"
         alt="Electronic Waste"
         title="EPR Services"
-        description="In our long working history as a CPCB approved EPR agency in Ahmedabad, we have provided our clients with the best services pertaining to plastic recycling. We help develop an extensive collection network that adds consumer and informal sectors."
+        description="In our long working history as a CPCB approved EPR agency in Vapi, we have provided our clients with the best services pertaining to plastic recycling. We help develop an extensive collection network that adds consumer and informal sectors."
       />
       <ExpertiseSection
         title="Benefits Of Our Plastic Waste Management Services"

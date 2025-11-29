@@ -25,7 +25,7 @@ const HazardousWastePage = () => {
       <ContentWithImage
         item={hazardContent}
         reverse={false}
-        title="Cautious And Reliable Hazardous waste management company in Ahmedabad"
+        title="Cautious And Reliable Hazardous waste management company in Vapi"
         src="https://images.unsplash.com/vector-1756301725624-51f2d520387f?w=800&q=80"
         alt="Industrial waste barrels and hazardous materials"
       />

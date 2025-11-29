@@ -25,7 +25,7 @@ const IndustrialWasteManagementPage = () => {
       <ContentWithImage
         item={industrialWasteContent}
         reverse={false}
-        title="GPCB Authorized Industrial Waste Recycler in Ahmedabad"
+        title="GPCB Authorized Industrial Waste Recycler in Vapi"
         src="https://images.unsplash.com/vector-1760508417243-4dddff577787?w=800&q=80"
         alt="Industrial waste barrels and hazardous materials"
       />
@@ -34,7 +34,7 @@ const IndustrialWasteManagementPage = () => {
         src="/industrial-waste.png"
         alt="Industrial Waste"
         title="Industrial Waste Management Services"
-        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Ahmedabad that will solve all your waste management hurdles so you can be relieved. Our industrial waste management services include:"
+        description="Is waste management a bottleneck of your business? Fret not; SV Green is a comprehensive industrial waste recycling company in Vapi that will solve all your waste management hurdles so you can be relieved. Our industrial waste management services include:"
       />
       <ExpertiseSection
         title="Benefits Of Our Industrial Waste Management Services"

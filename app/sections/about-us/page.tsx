@@ -45,7 +45,7 @@ function AboutSection() {
                 The climate adversities call for a change; a change from a
                 linear to circular economy wherein waste is not just disposed of
                 but recycled for recreating purposes. We, as a leading waste
-                management company in Ahmedabad, Gujarat, recognize our
+                management company in Vapi, Gujarat, recognize our
                 responsibility not only towards our clients and our workforce
                 but our planet as a whole.
               </p>

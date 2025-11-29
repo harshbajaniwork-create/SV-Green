@@ -97,7 +97,7 @@ function DropdownItem({
             }}
             className={clsx(
               "px-3 py-2 rounded-md text-sm font-medium hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-ring/50 flex items-center gap-1 relative",
-              scrolled ? "text-white" : "text-foreground",
+              scrolled ? "text-black" : "text-foreground",
               // indicate it's non-clickable visually (optional)
               "cursor-default select-none"
             )}
@@ -105,7 +105,7 @@ function DropdownItem({
             <motion.span
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-block relative text-white"
+              className="inline-block relative text-black"
               onMouseEnter={() => setIsNavHovered(true)}
               onMouseLeave={() => setIsNavHovered(false)}
             >
@@ -123,7 +123,7 @@ function DropdownItem({
             className={({ isActive }) =>
               clsx(
                 "px-3 py-2 rounded-md text-sm font-medium hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-ring/50 flex items-center gap-1 relative",
-                scrolled ? "text-white" : "text-foreground"
+                scrolled ? "text-black" : "text-foreground"
               )
             }
           >
@@ -153,7 +153,7 @@ function DropdownItem({
           transition={{ duration: 0.3 }}
         >
           <FiChevronDown
-            className={clsx("transition-colors duration-200 text-white")}
+            className={clsx("transition-colors duration-200 text-black")}
           />
         </motion.div>
       </div>
@@ -231,7 +231,7 @@ function NavItem({
         className={({ isActive }) =>
           clsx(
             "px-3 py-2 rounded-md text-sm font-medium hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-ring/50 relative block",
-            scrolled ? "text-white" : "text-foreground"
+            scrolled ? "text-black" : "text-foreground"
           )
         }
       >
@@ -240,7 +240,7 @@ function NavItem({
             <motion.span
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-block relative text-white"
+              className="inline-block relative text-black"
             >
               {item.name}
             </motion.span>
@@ -273,10 +273,7 @@ export default function Navbar() {
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       className={clsx(
-        "fixed inset-x-0 top-0 z-50 transition-colors duration-300",
-        scrolled
-          ? "bg-brand-600/95 backdrop-blur supports-backdrop-filter:bg-brand-600/85 shadow"
-          : "bg-transparent"
+        "fixed inset-x-0 top-0 z-50 transition-colors duration-300 bg-white"
       )}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -291,7 +288,7 @@ export default function Navbar() {
               <motion.img
                 src="/logo.png"
                 alt="Logo"
-                className="h-24 w-auto object-contain p-2 bg-white rounded-2xl"
+                className="h-24 w-auto object-contain p-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.2 }}
@@ -309,7 +306,7 @@ export default function Navbar() {
             <ul
               className={clsx(
                 "flex items-center gap-6",
-                scrolled ? "text-white" : "text-foreground"
+                scrolled ? "text-black" : "text-foreground"
               )}
             >
               {NavItems.map((item, index) => {
@@ -344,13 +341,13 @@ export default function Navbar() {
             className={clsx(
               "lg:hidden inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-ring/50",
               scrolled
-                ? "text-white hover:bg-white/10"
+                ? "text-black hover:bg-white/10"
                 : "text-foreground hover:bg-foreground/5"
             )}
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >
-            <FiMenu className="h-6 w-6 text-white" />
+            <FiMenu className="h-6 w-6 text-black" />
           </motion.button>
         </div>
       </nav>
