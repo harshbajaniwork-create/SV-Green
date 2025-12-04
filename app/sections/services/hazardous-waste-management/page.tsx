@@ -47,8 +47,8 @@ const HazardousWastePage = () => {
         item={benefits}
       />
       <RecycleHub
-        title="Why SV Green for Hazardous Waste Disposal?"
-        description=" SV Green is a trustworthy, hazardous waste management company
+        title="Why SV Green India for Hazardous Waste Disposal?"
+        description=" SV Green India is a trustworthy, hazardous waste management company
             that takes care of your hazardous scrap compliance-related needs so
             that you can focus on your essential business operations. We believe
             in offering the best customer satisfaction. Therefore, our expert

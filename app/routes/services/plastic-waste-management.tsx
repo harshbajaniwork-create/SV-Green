@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Plastic Waste Management",
     title: "Comprehensive Plastic Recycling & EPR Solutions",
-    description: plasticWasteContent[0] || "SV Green offers end-to-end plastic waste management services, including collection, segregation, recycling, and EPR compliance for businesses across industries.",
+    description:
+      plasticWasteContent[0] ||
+      "SV Green India offers end-to-end plastic waste management services, including collection, segregation, recycling, and EPR compliance for businesses across industries.",
     path: "/services/plastic-waste-management",
     additionalKeywords: [
       "plastic waste recycling",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "plastic waste collection",
       "sustainable packaging solutions",
       "plastic waste to energy",
-      "GPCB approved plastic recycling"
-    ]
+      "GPCB approved plastic recycling",
+    ],
   });
 }
 

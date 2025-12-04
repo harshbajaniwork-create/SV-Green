@@ -4,8 +4,10 @@ import { generateMetaTags } from "~/lib/seo";
 
 export function meta({}: Route.MetaArgs) {
   return generateMetaTags({
-    title: "SV Green - Leading Industrial Scrap & Waste Management Services",
-    description: "GPCB-authorized industrial scrap and waste management partner specializing in plastics, metals, hazardous and complex waste management across Gujarat, Maharashtra and Rajasthan.",
+    title:
+      "SV Green India - Leading Industrial Scrap & Waste Management Services",
+    description:
+      "GPCB-authorized industrial scrap and waste management partner specializing in plastics, metals, hazardous and complex waste management across Gujarat, Maharashtra and Rajasthan.",
     url: "https://sv-green.vercel.app",
   });
 }

@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Hazardous Waste Management",
     title: "Safe & Compliant Hazardous Waste Solutions",
-    description: hazardContent[0] || "SV Green provides comprehensive hazardous waste management services, ensuring safe handling, treatment, and disposal of hazardous materials in compliance with GPCB and CPCB regulations.",
+    description:
+      hazardContent[0] ||
+      "SV Green India provides comprehensive hazardous waste management services, ensuring safe handling, treatment, and disposal of hazardous materials in compliance with GPCB and CPCB regulations.",
     path: "/services/hazardous-waste-management",
     additionalKeywords: [
       "hazardous waste disposal",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "industrial hazardous waste",
       "GPCB compliant waste disposal",
       "hazardous waste transportation",
-      "chemical waste management"
-    ]
+      "chemical waste management",
+    ],
   });
 }
 

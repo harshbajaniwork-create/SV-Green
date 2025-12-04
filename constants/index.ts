@@ -62,7 +62,7 @@ export const NavItems: NavItem[] = [
 // * Content with image
 export const hazardContent = [
   "Hazardous waste poses risks to human health and the environment. We are a trusted hazardous waste recycler in Vapi, Gujarat, providing effective treatment processes tailored to industrial waste handling needs.",
-  "SV Green is a GPCB-approved hazardous waste recycler in Vapi, known for dependable services and a highly trained team.",
+  "SV Green India is a GPCB-approved hazardous waste recycler in Vapi, known for dependable services and a highly trained team.",
   "We take the time to understand the needs of businesses, large industries, and government agencies, and we take responsibility for hazardous waste from collection through recycling.",
   "As a hazardous waste management company in Gujarat, we provide a full range of environmental services, including waste collection, recycling compliance, EHS inspections, and internal waste-management solutions.",
   "With our strict regulatory compliance for hazardous waste, you can be confident in the protection of people, infrastructure, and the environment.",
@@ -70,50 +70,50 @@ export const hazardContent = [
 
 export const plasticWasteContent = [
   "According to the Central Pollution Control Board, in 2019–20 approximately 34,69,780 TPA of plastic waste was generated across India’s 35 states and union territories. These figures highlight the urgent need for effective plastic waste management. We operate as a GPCB-authorized plastic waste recycler in Gujarat.",
-  "At SV Green, environmental protection guides everything we do; it’s the reason we deliver high-quality plastic waste management services in Vapi.",
+  "At SV Green India, environmental protection guides everything we do; it’s the reason we deliver high-quality plastic waste management services in Vapi.",
   "We design customized plans because every industry has unique needs. As a GPCB-approved recycler, we follow regulatory guidelines to ensure full compliance, fair pricing, and exceptional service.",
   "Our plastic collection teams—trained and drawn from marginalized communities—follow strict safety protocols to provide reliable service. Our recycling facilities comply with PCB standards, so you can trust our quality and accuracy.",
 ];
 
 export const industrialWasteContent = [
   "Industrial and manufacturing processes produce large volumes of waste at every stage; the waste type varies by process and is often subject to strict regulations, including hazardous-waste rules. As Gujarat’s one-stop industrial waste management company, we deliver comprehensive, strategic solutions.",
-  "As a GPCB-authorized industrial waste recycler, we support recycling, diversion, and beneficial reuse. SV Green is a leading industrial scrap buyer in Gujarat, offering end-to-end waste management and disposal services.",
+  "As a GPCB-authorized industrial waste recycler, we support recycling, diversion, and beneficial reuse. SV Green India is a leading industrial scrap buyer in Gujarat, offering end-to-end waste management and disposal services.",
   "Our experts understand chemicals, materials, and products and have deep knowledge of CPCB and GPCB guidelines. Our industrial waste services ensure 100% compliance, helping you offload the burden of waste management.",
 ];
 
 export const extendedProducerResponsibility = [
-  "Extended Producer Responsibility (EPR) assigns producers significant financial and/or operational responsibility for handling or disposing of post-consumer plastic waste. SV Green is a leading SBM and a GPCB-approved EPR agency in Vapi, offering convenient recycling programs for large-scale waste generators and developing tailored, plastic-focused strategies to transfer responsibility back to producers.",
+  "Extended Producer Responsibility (EPR) assigns producers significant financial and/or operational responsibility for handling or disposing of post-consumer plastic waste. SV Green India is a leading SBM and a GPCB-approved EPR agency in Vapi, offering convenient recycling programs for large-scale waste generators and developing tailored, plastic-focused strategies to transfer responsibility back to producers.",
 ];
 
 export const circularEconomy = [
   "The global economy is only 8.6% circular, meaning 91.4% of materials are lost—according to the Circularity Gap Report 2021. This highlights the need to adopt circular-economy models at scale.",
-  "The circular economy replaces the linear take-make-dispose model by reducing waste through reuse, repair, refurbishment, and recycling. At SV Green, a GPCB-authorized recycler, we offer advanced recycling solutions that help businesses meet their responsibilities, create social impact, and drive environmental and economic sustainability.",
+  "The circular economy replaces the linear take-make-dispose model by reducing waste through reuse, repair, refurbishment, and recycling. At SV Green India, a GPCB-authorized recycler, we offer advanced recycling solutions that help businesses meet their responsibilities, create social impact, and drive environmental and economic sustainability.",
 ];
 
 export const organicWaste = [
   "Organic waste is biodegradable, originating from living sources such as plants, animals, and microorganisms. It is highly reusable—for energy, sustainable products, compost, and more.",
-  "As a leading organic waste recycler in Gujarat, we use effective processes to collect, process, and recycle organic waste. Our end-to-end services make SV Green a reliable partner for comprehensive organic-waste solutions.",
+  "As a leading organic waste recycler in Gujarat, we use effective processes to collect, process, and recycle organic waste. Our end-to-end services make SV Green India a reliable partner for comprehensive organic-waste solutions.",
 ];
 
 export const eWaste = [
   "Safe disposal of electronic waste (e-waste) is essential, and we act as a GPCB-registered e-waste recycler in Vapi.",
   "E-waste consists of electronic products that have reached the end of their useful life. When sent to landfills, they can release toxic substances that threaten human health and the environment.",
-  "Proper e-waste recycling recovers valuable materials and minimizes landfill waste. SV Green is a trusted e-waste recycler in Vapi, offering safe disposal and responsible recycling for environmental and social benefit.",
+  "Proper e-waste recycling recovers valuable materials and minimizes landfill waste. SV Green India is a trusted e-waste recycler in Vapi, offering safe disposal and responsible recycling for environmental and social benefit.",
 ];
 
 export const rubberWaste = [
-  "More than 270 rubber tyres are discarded every year. Tyres are just one of many rubber applications, and much of this material ends up in landfills. At SV Green, we follow a zero-waste-to-landfill policy and work to divert rubber waste from disposal wherever possible.",
+  "More than 270 rubber tyres are discarded every year. Tyres are just one of many rubber applications, and much of this material ends up in landfills. At SV Green India, we follow a zero-waste-to-landfill policy and work to divert rubber waste from disposal wherever possible.",
   "We collect and recycle 100% of rubber waste using compliant processes and up-to-date environmental controls. As GPCB-authorized recyclers, we operate within enclosed systems to prevent the release of toxic emissions.",
 ];
 
 export const woodenScrapBuyer = [
-  "SV Green is a leading wooden-scrap buyer in Vapi, providing professional recycling services that support sustainability and environmental conservation.",
-  "With years of experience and a commitment to eco-friendly practices, SV Green is a trusted partner for individuals and businesses seeking responsible wooden-scrap disposal.",
+  "SV Green India is a leading wooden-scrap buyer in Vapi, providing professional recycling services that support sustainability and environmental conservation.",
+  "With years of experience and a commitment to eco-friendly practices, SV Green India is a trusted partner for individuals and businesses seeking responsible wooden-scrap disposal.",
 ];
 
 export const woodenPalletsScrapBuyer = [
-  "SV Green is the premier wooden-pallets scrap buyer in Vapi, known for sustainable operations and high-quality service. We play a key role in responsibly disposing and recycling wooden pallets to conserve resources and reduce waste.",
-  "Wooden pallets are vital for storage and transport but can become significant waste at end of life. SV Green ensures pallets are repurposed or recycled in an environmentally responsible way.",
+  "SV Green India is the premier wooden-pallets scrap buyer in Vapi, known for sustainable operations and high-quality service. We play a key role in responsibly disposing and recycling wooden pallets to conserve resources and reduce waste.",
+  "Wooden pallets are vital for storage and transport but can become significant waste at end of life. SV Green India ensures pallets are repurposed or recycled in an environmentally responsible way.",
 ];
 
 // * Service Grid
@@ -168,7 +168,7 @@ export const industrialServices = [
   {
     title: "Disposal",
     description:
-      "We stand by our #ZeroWasteToLandfills commitment. SV Green uses safe and environmentally friendly disposal methods that promote recycling and resource recovery.",
+      "We stand by our #ZeroWasteToLandfills commitment. SV Green India uses safe and environmentally friendly disposal methods that promote recycling and resource recovery.",
   },
   {
     title: "Logistics",
@@ -183,7 +183,7 @@ export const industrialServices = [
   {
     title: "Management",
     description:
-      "At SV Green, every type of waste is handled differently to ensure safety, precision, and full compliance with regulatory guidelines.",
+      "At SV Green India, every type of waste is handled differently to ensure safety, precision, and full compliance with regulatory guidelines.",
   },
   {
     title: "Reporting",
@@ -247,7 +247,7 @@ export const organicWasteServices = [
   {
     title: "More Sanitary than Traditional Waste",
     description:
-      "Food leftovers attract pests and cause contamination. Proper organic waste disposal is essential for sanitation. SV Green provides safe and efficient food waste management for industries.",
+      "Food leftovers attract pests and cause contamination. Proper organic waste disposal is essential for sanitation. SV Green India provides safe and efficient food waste management for industries.",
   },
   {
     title: "Turn Waste into Resources",
@@ -257,7 +257,7 @@ export const organicWasteServices = [
   {
     title: "Makes Financial Sense",
     description:
-      "Efficient organic waste management reduces waste-handling costs and avoids unnecessary dumping expenses. SV Green helps businesses achieve measurable financial benefits.",
+      "Efficient organic waste management reduces waste-handling costs and avoids unnecessary dumping expenses. SV Green India helps businesses achieve measurable financial benefits.",
   },
   {
     title: "Sustains Communities",
@@ -846,9 +846,9 @@ export const faqs = [
     category: "About Us",
   },
   {
-    question: `Why should I change from local scrap vendor to "SV Green?`,
+    question: `Why should I change from local scrap vendor to "SV Green India?`,
     answer:
-      "If 100% Compliance, Excellent service and environmental support are essential parameters for your organization then you should choose SV Green.",
+      "If 100% Compliance, Excellent service and environmental support are essential parameters for your organization then you should choose SV Green India.",
     category: "About Us",
   },
   {

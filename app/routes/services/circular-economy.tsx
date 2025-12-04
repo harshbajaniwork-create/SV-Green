@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Circular Economy",
     title: "Sustainable Resource Management & Waste Reduction",
-    description: circularEconomy[0] || "SV Green offers comprehensive circular economy solutions to help businesses transform waste into valuable resources while reducing environmental impact and achieving sustainability goals.",
+    description:
+      circularEconomy[0] ||
+      "SV Green India offers comprehensive circular economy solutions to help businesses transform waste into valuable resources while reducing environmental impact and achieving sustainability goals.",
     path: "/services/circular-economy",
     additionalKeywords: [
       "circular economy solutions",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "sustainable business practices",
       "closed-loop recycling",
       "resource efficiency",
-      "GPCB compliant recycling"
-    ]
+      "GPCB compliant recycling",
+    ],
   });
 }
 

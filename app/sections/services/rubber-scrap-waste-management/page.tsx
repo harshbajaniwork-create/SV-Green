@@ -34,7 +34,7 @@ const RubberScrapWasteManagementPage = () => {
         src="/rubber-waste.png"
         alt="Rubber Waste"
         title="Why recycle rubber waste?"
-        description="The problem of managing rubber waste is becoming essential in today’s time. SV Green is India’s best waste management company that focuses on sustainable practices for every type of industrial waste."
+        description="The problem of managing rubber waste is becoming essential in today’s time. SV Green India is India’s best waste management company that focuses on sustainable practices for every type of industrial waste."
       />
       <ExpertiseSection
         title="Benefits Of Our Rubber Waste Management Services"
@@ -47,8 +47,8 @@ const RubberScrapWasteManagementPage = () => {
         item={rubberWasteProcess}
       />
       <RecycleHub
-        title="Why SV Green for Plastic Waste Disposal?"
-        description="SV Green is a trustworthy, hazardous waste management company that takes care of your hazardous scrap compliance-related needs so that you can focus on your essential business operations. We believe in offering the best customer satisfaction. Therefore, our expert staff promptly answers your queries to work with you on your waste disposal and recycling requirements."
+        title="Why SV Green India for Plastic Waste Disposal?"
+        description="SV Green India is a trustworthy, hazardous waste management company that takes care of your hazardous scrap compliance-related needs so that you can focus on your essential business operations. We believe in offering the best customer satisfaction. Therefore, our expert staff promptly answers your queries to work with you on your waste disposal and recycling requirements."
         src="/rubber-waste.png"
         alt="Rubber Waste"
         item={whyRecycle}

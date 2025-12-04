@@ -4,8 +4,10 @@ import { generateMetaTags } from "~/lib/seo";
 
 export function meta({}: Route.MetaArgs) {
   return generateMetaTags({
-    title: "Waste Management Services | SV Green - Comprehensive Solutions",
-    description: "Explore SV Green's comprehensive waste management services including industrial, hazardous, plastic, and e-waste management. GPCB-authorized services across Gujarat, Maharashtra, and Rajasthan.",
+    title:
+      "Waste Management Services | SV Green India - Comprehensive Solutions",
+    description:
+      "Explore SV Green India's comprehensive waste management services including industrial, hazardous, plastic, and e-waste management. GPCB-authorized services across Gujarat, Maharashtra, and Rajasthan.",
     url: "https://sv-green.vercel.app/services",
     keywords: [
       "waste management services",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "e-waste management",
       "GPCB authorized services",
       "waste management solutions",
-      "sustainable waste management"
-    ]
+      "sustainable waste management",
+    ],
   });
 }
 

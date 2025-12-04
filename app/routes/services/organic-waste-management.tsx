@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Organic Waste Management",
     title: "Sustainable Organic Waste Solutions & Composting",
-    description: organicWaste[0] || "SV Green provides efficient organic waste management services, converting food waste and other organic materials into valuable compost and biogas through sustainable practices.",
+    description:
+      organicWaste[0] ||
+      "SV Green India provides efficient organic waste management services, converting food waste and other organic materials into valuable compost and biogas through sustainable practices.",
     path: "/services/organic-waste-management",
     additionalKeywords: [
       "organic waste recycling",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "composting services",
       "biogas production",
       "sustainable waste solutions",
-      "organic waste to energy"
-    ]
+      "organic waste to energy",
+    ],
   });
 }
 

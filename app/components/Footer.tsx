@@ -33,7 +33,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm font-semibold tracking-wide uppercase text-brand-200">
-                  SV Green
+                  SV Green India
                 </p>
                 <p className="text-xs text-brand-200/80">
                   Industrial Scrap & Waste Management
@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-brand-700 pt-4 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] text-brand-200/80">
-          <p>© {year} SV Green. All rights reserved.</p>
+          <p>© {year} SV Green India. All rights reserved.</p>
           <p className="text-[11px]">
             Committed to safe & compliant recycling for a cleaner, circular
             economy.

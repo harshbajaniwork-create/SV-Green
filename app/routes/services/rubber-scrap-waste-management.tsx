@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Rubber Scrap Waste Management",
     title: "Eco-Friendly Rubber & Tyre Recycling Solutions",
-    description: rubberWaste[0] || "SV Green provides sustainable rubber scrap and tyre waste management services, transforming waste into reusable materials through advanced recycling technologies.",
+    description:
+      rubberWaste[0] ||
+      "SV Green India provides sustainable rubber scrap and tyre waste management services, transforming waste into reusable materials through advanced recycling technologies.",
     path: "/services/rubber-scrap-waste-management",
     additionalKeywords: [
       "rubber scrap recycling",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "rubber waste disposal",
       "used tyre collection",
       "sustainable rubber solutions",
-      "GPCB approved rubber recycling"
-    ]
+      "GPCB approved rubber recycling",
+    ],
   });
 }
 

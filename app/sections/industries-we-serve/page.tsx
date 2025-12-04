@@ -175,7 +175,7 @@ function WhyPartnerSection() {
           className="text-center max-w-3xl mx-auto mb-12"
         >
           <p className="text-xs font-semibold tracking-[0.25em] uppercase text-brand-200 mb-3">
-            Why Partner With SV Green?
+            Why Partner With SV Green India?
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             One vendor, zero compromise on compliance or service.

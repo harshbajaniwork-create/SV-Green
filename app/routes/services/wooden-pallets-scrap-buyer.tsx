@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Wooden Pallets Scrap Buyer",
     title: "Professional Wooden Pallets Recycling & Disposal Services",
-    description: woodenPalletsScrapBuyer[0] || "SV Green offers efficient wooden pallets scrap buying and recycling services, helping businesses dispose of used pallets in an environmentally responsible manner.",
+    description:
+      woodenPalletsScrapBuyer[0] ||
+      "SV Green India offers efficient wooden pallets scrap buying and recycling services, helping businesses dispose of used pallets in an environmentally responsible manner.",
     path: "/services/wooden-pallets-scrap-buyer",
     additionalKeywords: [
       "wooden pallets buyer near me",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "wood pallet disposal service",
       "industrial pallet waste management",
       "sustainable pallet recycling",
-      "GPCB approved wood waste solutions"
-    ]
+      "GPCB approved wood waste solutions",
+    ],
   });
 }
 

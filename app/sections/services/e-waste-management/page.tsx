@@ -335,8 +335,8 @@ const EWasteManagementPage = () => {
         item={eWasteProcess}
       />
       <RecycleHub
-        title="Why SV Green for Plastic Waste Disposal?"
-        description="SV Green is a trustworthy, hazardous waste management company that takes care of your hazardous scrap compliance-related needs so that you can focus on your essential business operations. We believe in offering the best customer satisfaction. Therefore, our expert staff promptly answers your queries to work with you on your waste disposal and recycling requirements."
+        title="Why SV Green India for Plastic Waste Disposal?"
+        description="SV Green India is a trustworthy, hazardous waste management company that takes care of your hazardous scrap compliance-related needs so that you can focus on your essential business operations. We believe in offering the best customer satisfaction. Therefore, our expert staff promptly answers your queries to work with you on your waste disposal and recycling requirements."
         src="/electronic-waste.png"
         alt="electronic Waste"
         item={whyRecycle}

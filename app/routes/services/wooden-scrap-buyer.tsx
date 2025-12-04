@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Wooden Scrap Buyer",
     title: "Top Wooden Scrap Collection & Recycling Services",
-    description: woodenScrapBuyer[0] || "SV Green is a leading wooden scrap buyer in Gujarat, offering professional collection, recycling, and disposal services for all types of wooden waste materials.",
+    description:
+      woodenScrapBuyer[0] ||
+      "SV Green India is a leading wooden scrap buyer in Gujarat, offering professional collection, recycling, and disposal services for all types of wooden waste materials.",
     path: "/services/wooden-scrap-buyer",
     additionalKeywords: [
       "wooden scrap buyer near me",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "scrap wood collection",
       "industrial wood waste disposal",
       "sustainable wood recycling",
-      "GPCB approved wood waste management"
-    ]
+      "GPCB approved wood waste management",
+    ],
   });
 }
 

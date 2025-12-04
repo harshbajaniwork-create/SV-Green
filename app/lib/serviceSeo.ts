@@ -17,18 +17,18 @@ export function generateServiceMeta({
 }: ServiceSeoParams) {
   const baseUrl = "https://sv-green.vercel.app";
   const url = `${baseUrl}${path}`;
-  
+
   const defaultKeywords = [
     `${serviceName} services`,
     `${serviceName} in Gujarat`,
     `GPCB authorized ${serviceName.toLowerCase()}`,
     `sustainable ${serviceName.toLowerCase()} solutions`,
     `professional ${serviceName.toLowerCase()} company`,
-    ...additionalKeywords
+    ...additionalKeywords,
   ];
 
   return generateMetaTags({
-    title: `${serviceName} Services | SV Green - ${title}`,
+    title: `${serviceName} Services | SV Green India - ${title}`,
     description,
     url,
     keywords: defaultKeywords,

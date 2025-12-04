@@ -4,17 +4,18 @@ import { generateMetaTags } from "~/lib/seo";
 
 export function meta({}: Route.MetaArgs) {
   return generateMetaTags({
-    title: "Our Valued Clients | SV Green Waste Management Solutions",
-    description: "Discover the businesses and organizations that trust SV Green for their waste management and recycling needs. We partner with industries across Gujarat, Maharashtra, and Rajasthan.",
+    title: "Our Valued Clients | SV Green India Waste Management Solutions",
+    description:
+      "Discover the businesses and organizations that trust SV Green India for their waste management and recycling needs. We partner with industries across Gujarat, Maharashtra, and Rajasthan.",
     url: "https://sv-green.vercel.app/clients",
     keywords: [
       "waste management clients",
-      "SV Green customers",
+      "SV Green India customers",
       "industrial waste management partners",
       "recycling service providers",
       "GPCB approved waste solutions",
-      "sustainable business partnerships"
-    ]
+      "sustainable business partnerships",
+    ],
   });
 }
 

@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "Extended Producer Responsibility (EPR)",
     title: "EPR Compliance & Producer Responsibility Solutions",
-    description: extendedProducerResponsibility[0] || "SV Green provides comprehensive EPR compliance services, helping businesses meet their extended producer responsibility obligations for plastic, e-waste, and other regulated waste streams.",
+    description:
+      extendedProducerResponsibility[0] ||
+      "SV Green India provides comprehensive EPR compliance services, helping businesses meet their extended producer responsibility obligations for plastic, e-waste, and other regulated waste streams.",
     path: "/services/extended-producer-responsibility",
     additionalKeywords: [
       "EPR compliance services",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "plastic waste EPR",
       "e-waste management compliance",
       "EPR registration and filing",
-      "CPCB EPR authorization"
-    ]
+      "CPCB EPR authorization",
+    ],
   });
 }
 

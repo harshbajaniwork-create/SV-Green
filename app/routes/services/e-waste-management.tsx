@@ -7,7 +7,9 @@ export function meta({}: Route.MetaArgs) {
   return generateServiceMeta({
     serviceName: "E-Waste Management",
     title: "Secure Electronics Recycling & Disposal Services",
-    description: eWaste[0] || "SV Green provides secure, compliant e-waste management solutions, ensuring safe disposal and recycling of electronic waste while protecting data and the environment.",
+    description:
+      eWaste[0] ||
+      "SV Green India provides secure, compliant e-waste management solutions, ensuring safe disposal and recycling of electronic waste while protecting data and the environment.",
     path: "/services/e-waste-management",
     additionalKeywords: [
       "electronic waste recycling",
@@ -15,8 +17,8 @@ export function meta({}: Route.MetaArgs) {
       "e-waste disposal services",
       "secure data destruction",
       "CPCB approved e-waste recycler",
-      "corporate e-waste management"
-    ]
+      "corporate e-waste management",
+    ],
   });
 }
 

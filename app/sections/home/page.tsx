@@ -203,7 +203,8 @@ function ServicesOverview() {
           {/* Description */}
           <p className="text-lg text-gray-600 leading-relaxed">
             From plastics and metals to hazardous and complex industrial waste,
-            SV Green provides unified collection, recycling and documentation
+            SV Green India provides unified collection, recycling and
+            documentation
             <span className="font-semibold text-gray-900">
               {" "}
               tailored to your facility's needs.
@@ -289,7 +290,7 @@ function AdvantageSection() {
         >
           <p className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-brand-400 bg-brand-200/30 px-4 py-2 rounded-full">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-400" />
-            The SV Green Advantage
+            The SV Green India Advantage
           </p>
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-brand-800 leading-tight">
             Industrial waste management that{" "}
@@ -377,8 +378,9 @@ function ValuesSection() {
             Built on trust, compliance and long-term partnerships.
           </h2>
           <p className="text-gray-600 text-sm md:text-base">
-            SV Green is driven by ethics and impact—supporting your ESG goals
-            while creating dignified livelihoods and a cleaner environment.
+            SV Green India is driven by ethics and impact—supporting your ESG
+            goals while creating dignified livelihoods and a cleaner
+            environment.
           </p>
         </motion.div>
 
