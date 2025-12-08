@@ -77,17 +77,31 @@ export default function ContactUsPage() {
             {
               icon: Phone,
               title: "Call Us",
-              info: "+91 7809950000",
+              info: (
+                <div className="flex flex-col gap-1">
+                  <a
+                    href="tel:+917809950000"
+                    className="hover:text-brand-700 transition-colors bg-transparent relative z-10 w-fit"
+                  >
+                    +91 7809950000
+                  </a>
+                  <a
+                    href="tel:+917676764768"
+                    className="hover:text-brand-700 transition-colors bg-transparent relative z-10 w-fit"
+                  >
+                    +91 7676764768
+                  </a>
+                </div>
+              ),
               subInfo: "Mon-Sat, 9AM-6PM",
-              href: "tel:+917809950000",
               color: "#3a5a40",
             },
             {
               icon: Mail,
               title: "Email Us",
-              info: "tradegreenindia@gmail.com",
+              info: "info@svgreenindia.com",
               subInfo: "Response within 24 hours",
-              href: "mailto:tradegreenindia@gmail.com",
+              href: "mailto:info@svgreenindia.com",
               color: "#588157",
             },
             {
@@ -98,29 +112,36 @@ export default function ContactUsPage() {
               href: "https://www.google.com/maps/place/Plot+No+13+&+14,+Evershine+Estate,+Vapi+Nashik+Road,+Karvad,+Vapi,+Gujarat+396191/@22.1566667,72.8566667,17z/data=!3m1!4b1!4m5!3m4!1s0x39601b9b5b5b5b5b:0x3b3b3b3b3b3b3b3b!8m2!3d22.1566667!4d72.8566667",
               color: "#344e41",
             },
-          ].map((item, index) => (
-            <motion.a
-              key={item.title}
-              href={item.href}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ y: -8, scale: 1.02 }}
-              className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border-2 border-gray-100 hover:border-brand-200"
-            >
-              <div
-                className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
-                style={{ backgroundColor: `${item.color}20` }}
+          ].map((item, index) => {
+            const MotionComponent = item.href ? motion.a : motion.div;
+            const props = item.href ? { href: item.href } : {};
+            return (
+              <MotionComponent
+                key={item.title}
+                {...props}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                whileHover={{ y: -8, scale: 1.02 }}
+                className="group bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all border-2 border-gray-100 hover:border-brand-200 block h-full text-left"
               >
-                <item.icon className="w-7 h-7" style={{ color: item.color }} />
-              </div>
-              <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
-              <p className="text-sm font-semibold text-gray-700 mb-1">
-                {item.info}
-              </p>
-              <p className="text-xs text-gray-500">{item.subInfo}</p>
-            </motion.a>
-          ))}
+                <div
+                  className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                  style={{ backgroundColor: `${item.color}20` }}
+                >
+                  <item.icon
+                    className="w-7 h-7"
+                    style={{ color: item.color }}
+                  />
+                </div>
+                <h3 className="font-bold text-gray-900 mb-1">{item.title}</h3>
+                <div className="text-sm font-semibold text-gray-700 mb-1">
+                  {item.info}
+                </div>
+                <p className="text-xs text-gray-500">{item.subInfo}</p>
+              </MotionComponent>
+            );
+          })}
         </div>
 
         {/* Main Grid - Form + Info */}
