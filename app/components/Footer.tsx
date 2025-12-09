@@ -33,7 +33,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-sm font-semibold tracking-wide uppercase text-brand-200">
-                  SV Green India
+                  SV Green India Recyclers Pvt. Ltd.
                 </p>
                 <p className="text-xs text-brand-200/80">
                   Industrial Scrap & Waste Management
@@ -93,35 +93,44 @@ export default function Footer() {
               <p className="flex items-start gap-2">
                 <MapPin className="h-3.5 w-3.5 mt-0.5 flex-shrink-0" />
                 <span>
-                  Ahmedabad • Vapi • Ankleshwar • Jaipur • Mumbai
-                  <br />
-                  Serving manufacturing facilities across Western India.
+                  Plot No 13 & 14, Evershine Estate, Vapi Nashik Road, Karvad
+                  Vapi-396191.
                 </span>
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="h-3.5 w-3.5 flex-shrink-0" />
                 <a
-                  href="mailto:shyam.bhannushali@gmail.com"
+                  href="mailto:info@svgreenindia.com"
                   className="hover:text-brand-50 underline underline-offset-2"
                 >
-                  shyam.bhannushali@gmail.com
+                  info@svgreenindia.com
                 </a>
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="h-3.5 w-3.5 flex-shrink-0" />
                 <a
-                  href="tel:+919000000000"
+                  href="tel:+917809950000"
                   className="hover:text-brand-50 underline underline-offset-2"
                 >
-                  +91 90000 00000
+                  +91 7809950000
+                </a>
+              </p>
+              <p className="flex items-center gap-2">
+                <Phone className="h-3.5 w-3.5 flex-shrink-0" />
+                <a
+                  href="tel:+917676764768"
+                  className="hover:text-brand-50 underline underline-offset-2"
+                >
+                  +91 7676764768
                 </a>
               </p>
             </div>
           </motion.div>
         </div>
-
         <div className="mt-10 border-t border-brand-700 pt-4 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] text-brand-200/80">
-          <p>© {year} SV Green India. All rights reserved.</p>
+          <p>
+            © {year} SV Green India Recyclers Pvt. Ltd. All rights reserved.
+          </p>
           <p className="text-[11px]">
             Committed to safe & compliant recycling for a cleaner, circular
             economy.
