@@ -37,7 +37,7 @@ function IndustryCard({
             loading="lazy"
           />
           {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-black/40 to-transparent" />
           {/* Top bar */}
           <div
             className="absolute top-0 left-0 h-1.5 w-full"

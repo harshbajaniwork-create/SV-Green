@@ -682,8 +682,7 @@ export const homeservices = [
       "PET, HDPE, LDPE, PP, PVC and multilayer plastics from production lines and packaging waste.",
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1751629663077-67876b0fb818?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/plastic-scrap.webp",
   },
   {
     id: 2,
@@ -692,8 +691,7 @@ export const homeservices = [
       "Ferrous and non-ferrous scrap, production offcuts, equipment dismantling and metal dust.",
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1652676460021-8e6727e71d47?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/metal-scrap.webp",
   },
   {
     id: 3,
@@ -702,8 +700,7 @@ export const homeservices = [
       "Hazardous and scheduled waste streams with full PCB compliance and manifest documentation.",
     color: "#344e41",
     lightColor: "#3a5a40",
-    imageUrl:
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/chemical-scrap.webp",
   },
   {
     id: 4,
@@ -712,8 +709,7 @@ export const homeservices = [
       "Industrial kraft paper, corrugated boxes, production rejects and office paper waste.",
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1583521214690-73421a1829a9?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/fmcg-scrap.webp",
   },
   {
     id: 5,
@@ -722,8 +718,7 @@ export const homeservices = [
       "Industrial glass, containers, drums, IBCs and bulk packaging requiring cleaning or disposal.",
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1608232385022-8ba61bec6c59?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/glass-scrap.webp",
   },
   {
     id: 6,
@@ -732,8 +727,7 @@ export const homeservices = [
       "Expired paints, solvents, coating residues and contaminated containers from manufacturing.",
     color: "#344e41",
     lightColor: "#3a5a40",
-    imageUrl:
-      "https://images.unsplash.com/photo-1670940094923-6f75e4dc5c3a?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/paint-scrap.webp",
   },
   {
     id: 7,
@@ -742,8 +736,7 @@ export const homeservices = [
       "Cotton waste, synthetic fibers, production offcuts and rejected fabric rolls.",
     color: "#588157",
     lightColor: "#a3b18a",
-    imageUrl:
-      "https://images.unsplash.com/photo-1534639077088-d702bcf685e7?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/textile-scrap.webp",
   },
   {
     id: 8,
@@ -752,8 +745,7 @@ export const homeservices = [
       "Bespoke solutions for rubber, wood, e-waste, batteries and other complex waste streams.",
     color: "#3a5a40",
     lightColor: "#588157",
-    imageUrl:
-      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=500&h=400&fit=crop",
+    imageUrl: "/industries-we-serve/construction-scrap.webp",
   },
 ];
 
