@@ -203,7 +203,8 @@ export default function FAQsPage() {
                   <Phone className="w-5 h-5 text-brand-200" />
                   <div>
                     <p className="text-xs text-brand-50">Call us</p>
-                    <p className="text-sm font-semibold">+91 90000 00000</p>
+                    <p className="text-sm font-semibold">+91 7809950000</p>
+                    <p className="text-sm font-semibold">+91 7676764768</p>
                   </div>
                 </a>
               </div>
